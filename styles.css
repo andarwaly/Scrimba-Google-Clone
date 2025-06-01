@@ -2,10 +2,15 @@ body {
     background: white;
 }
 
+.container {
+    margin-top: 8%;
+}
 .logo {
     width: 30%;
+    display: block;
 }
 
 input {
     width: 48%;
+    display: block;
 }

@@ -1,5 +1,6 @@
 body {
     background: white;
+    margin: 0px;
 }
 
 .main-wrapper {
@@ -11,10 +12,28 @@ body {
     height: 100vh;
 }
 .logo {
-    width: 30%;
-    display: block;
+    width: 20%;
 }
 .search {
-    width: 48%;
-    display: block;
+    width: 40%;
+    /* vertical horizontal */
+    padding: 10px 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 20px;
+    line-height: 120%;
+    caret-color: blue;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 16px;
 }

@@ -3,7 +3,12 @@ body {
 }
 
 .main-wrapper {
-    margin-top: 8%;
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 100vh;
 }
 .logo {
     width: 30%;
